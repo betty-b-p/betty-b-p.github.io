@@ -79,9 +79,18 @@ body > footer {
     display: flex;
 }
 
-img {
-    border-radius: 100%;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px; 
 }
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
 
 #footer-ul {
     display: flex;
@@ -98,3 +107,4 @@ img {
 
 body > footer h2 {
     color: white; }
+
