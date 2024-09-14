@@ -1,100 +1,100 @@
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 1.5vw;
 }
 
-#logo{
+#logo {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
-    width: 17%;
+    width: 50%;
     text-shadow:
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;
+    1px 1px 0px white,
+    -1px 1px 0px white,
+    1px -1px 0px white,
+    -1px -1px 0px white;
 }
 
-ul{
+ul {
     margin: 0px;
 }
 
-body > header{
-    background-color: orange;
-    color: white;
+body > header {
+    background-color: black;
+    color: palevioletred;
     display: flex;
     height: 10vh;
     align-items: center;
     justify-content: space-around;
 }
 
-#nav-ul{
+#nav-ul {
     display: flex;
 }
 
-#nav-ul >li{
+#nav-ul > li {
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
-body> header > nav >ul{
+body > header > nav > ul {
     list-style: none;
     text-decoration: none;
 }
 
-.navbutton{
+.navbutton {
     color: white;
     text-decoration: none;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid palevioletred;
     border-radius: 10%;
 }
 
-body>main article{
+body > main article {
     width: 60%;
-    margin:auto;
+    margin: auto;
 }
 
-#main-content{
+#main-content {
     display: flex;
     justify-content: space-around;
-
 }
 
-#main-content>div{
+#main-content > div {
     width: 70%;
 }
 
-form{
+form {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-body > footer{
-    background-color: orange;
+body > footer {
+    background-color: black;
     display: flex;
 }
 
-img{
+img {
     border-radius: 100%;
 }
 
-#footer-ul{
+#footer-ul {
     display: flex;
     list-style: none;
-
 }
 
-#footer-ul >div>li{
-    margin-left: 12px;
-}
+#footer-ul > div>li {
+    color:white}
 
-#footer-ul>div>li>a{
-    color: white;
+#footer-ul > div > li > a {
+    color: palevioletred;
     text-decoration: none;
 }
+
+body > footer h2 {
+    color: white; }
